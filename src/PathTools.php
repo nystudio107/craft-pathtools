@@ -17,6 +17,8 @@ use Craft;
 use craft\base\Plugin;
 
 /**
+ * Class PathTools
+ *
  * @author    nystudio107
  * @package   PathTools
  * @since     1.0.0
@@ -27,7 +29,7 @@ class PathTools extends Plugin
     // =========================================================================
 
     /**
-     * @var static
+     * @var PathTools
      */
     public static $plugin;
 
