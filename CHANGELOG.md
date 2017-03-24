@@ -1,5 +1,9 @@
 # PathTools Changelog
 
+## 1.0.4 - 2017.03.24
+### Changed
+* `hasSettings` -> `hasCpSettings` for Craft 3 beta 8 compatibility
+
 ## 1.0.3 - 2017.03.13
 ### Fixed
 * The handle used for translations is now all lowercase
