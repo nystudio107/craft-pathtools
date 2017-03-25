@@ -46,6 +46,13 @@ class PathTools extends Plugin
 
         Craft::$app->view->twig->addExtension(new PathToolsTwigExtension());
 
-        Craft::info('PathTools ' . Craft::t('pathtools', 'plugin loaded'), __METHOD__);
+        Craft::info(
+            Craft::t(
+                'pathtools',
+                '{name} plugin loaded',
+                ['name' => $this->name]
+            ),
+            __METHOD__
+        );
     }
 }
