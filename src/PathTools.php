@@ -48,7 +48,7 @@ class PathTools extends Plugin
 
         Craft::info(
             Craft::t(
-                'pathtools',
+                'path-tools',
                 '{name} plugin loaded',
                 ['name' => $this->name]
             ),
