@@ -8,7 +8,7 @@ Related: [PathTools for Craft 2.x](https://github.com/nystudio107/pathtools)
 
 To install PathTools, follow these steps:
 
-1. Install with Composer via `composer require nystudio107/craft3-pathtools`
+1. Install with Composer via `composer require nystudio107/craft3-pathtools` from your project directory
 2. Install plugin in the Craft Control Panel under Settings > Plugins
 
 PathTools works on Craft 3.x.
