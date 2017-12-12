@@ -1,5 +1,10 @@
 # PathTools Changelog
 
+## 1.0.6 - 2017.12.06
+### Changed
+* Updated to require craftcms/cms `^3.0.0-RC1`
+* Switched to `Craft::$app->view->registerTwigExtension` to register the Twig extension
+
 ## 1.0.5 - 2017.07.15
 ### Changed
 * Craft 3 beta 20 compatibility

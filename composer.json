@@ -2,7 +2,7 @@
     "name": "nystudio107/craft3-pathtools",
     "description": "This twig plugin for the Craft CMS brings convenient path & url manipulation functions & filters to your Twig templates.",
     "type": "craft-plugin",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "keywords": [
         "craft",
         "cms",
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "~3.0.0-beta.20"
+        "craftcms/cms": "^3.0.0-RC1"
     },
     "autoload": {
         "psr-4": {

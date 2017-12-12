@@ -2,7 +2,13 @@
 
 This twig plugin for the Craft CMS brings convenient path & url manipulation functions & filters to your Twig templates.
 
+![Screenshot](resources/img/plugin-logo.png)
+
 Related: [PathTools for Craft 2.x](https://github.com/nystudio107/pathtools)
+
+## Requirements
+
+This plugin requires Craft CMS 3.0.0-RC1 or later.
 
 ## Installation
 

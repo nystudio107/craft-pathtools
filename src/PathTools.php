@@ -44,7 +44,7 @@ class PathTools extends Plugin
         parent::init();
         self::$plugin = $this;
 
-        Craft::$app->view->twig->addExtension(new PathToolsTwigExtension());
+        Craft::$app->view->registerTwigExtension(new PathToolsTwigExtension());
 
         Craft::info(
             Craft::t(
