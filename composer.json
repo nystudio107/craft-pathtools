@@ -11,7 +11,7 @@
         "pathtools"
     ],
     "support": {
-        "docs": "https://github.com/nystudio107/craft-pathtools/blob/master/README.md",
+        "docs": "https://github.com/nystudio107/craft-pathtools/blob/v1/README.md",
         "issues": "https://github.com/nystudio107/craft-pathtools/issues"
     },
     "license": "MIT",
@@ -35,7 +35,7 @@
         "schemaVersion": "1.0.0",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/nystudio107/craft-pathtools/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/nystudio107/craft-pathtools/v1/CHANGELOG.md",
         "class": "nystudio107\\pathtools\\PathTools"
     }
 }
