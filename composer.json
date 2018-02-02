@@ -1,8 +1,8 @@
 {
-    "name": "nystudio107/craft3-pathtools",
+    "name": "nystudio107/craft-pathtools",
     "description": "This twig plugin for the Craft CMS brings convenient path & url manipulation functions & filters to your Twig templates.",
     "type": "craft-plugin",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "keywords": [
         "craft",
         "cms",
@@ -11,8 +11,8 @@
         "pathtools"
     ],
     "support": {
-        "docs": "https://github.com/nystudio107/craft3-pathtools/blob/master/README.md",
-        "issues": "https://github.com/nystudio107/craft3-pathtools/issues"
+        "docs": "https://github.com/nystudio107/craft-pathtools/blob/master/README.md",
+        "issues": "https://github.com/nystudio107/craft-pathtools/issues"
     },
     "license": "MIT",
     "authors": [
@@ -35,7 +35,7 @@
         "schemaVersion": "1.0.0",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/nystudio107/craft3-pathtools/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/nystudio107/craft-pathtools/master/CHANGELOG.md",
         "class": "nystudio107\\pathtools\\PathTools"
     }
 }

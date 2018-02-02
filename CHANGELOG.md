@@ -1,5 +1,9 @@
 # PathTools Changelog
 
+## 1.0.7 - 2018.02.01
+### Added
+* Renamed the composer package name to `craft-pathtools`
+
 ## 1.0.6 - 2017.12.06
 ### Changed
 * Updated to require craftcms/cms `^3.0.0-RC1`
