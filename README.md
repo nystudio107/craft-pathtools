@@ -1,3 +1,5 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nystudio107/craft-pathtools/badges/quality-score.png?b=v1)](https://scrutinizer-ci.com/g/nystudio107/craft-pathtools/?branch=v1) [![Code Coverage](https://scrutinizer-ci.com/g/nystudio107/craft-pathtools/badges/coverage.png?b=v1)](https://scrutinizer-ci.com/g/nystudio107/craft-pathtools/?branch=v1) [![Build Status](https://scrutinizer-ci.com/g/nystudio107/craft-pathtools/badges/build.png?b=v1)](https://scrutinizer-ci.com/g/nystudio107/craft-pathtools/build-status/v1) [![Code Intelligence Status](https://scrutinizer-ci.com/g/nystudio107/craft-pathtools/badges/code-intelligence.svg?b=v1)](https://scrutinizer-ci.com/code-intelligence)
+
 # PathTools plugin for Craft CMS 3.x
 
 This twig plugin for the Craft CMS brings convenient path & url manipulation functions & filters to your Twig templates.
@@ -16,6 +18,8 @@ To install PathTools, follow these steps:
 
 1. Install with Composer via `composer require nystudio107/craft-pathtools` from your project directory
 2. Install plugin in the Craft Control Panel under Settings > Plugins
+
+You can also install PathTools via the **Plugin Store** in the Craft AdminCP.
 
 PathTools works on Craft 3.x.
 
