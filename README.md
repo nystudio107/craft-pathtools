@@ -17,7 +17,7 @@ This plugin requires Craft CMS 3.0.0 or later.
 To install PathTools, follow these steps:
 
 1. Install with Composer via `composer require nystudio107/craft-pathtools` from your project directory
-2. Install the plugin via `./craft install/plugin path-tools` via the CLI, or in the Control Panel, go to Settings → Plugins and click the “Install” button for Connect.
+2. Install the plugin via `./craft install/plugin path-tools` via the CLI, or in the Control Panel, go to Settings → Plugins and click the “Install” button for Path Tools.
 
 You can also install PathTools via the **Plugin Store** in the Craft AdminCP.
 
