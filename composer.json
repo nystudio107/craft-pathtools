@@ -11,8 +11,8 @@
         "pathtools"
     ],
     "support": {
-        "docs": "https://github.com/nystudio107/craft-pathtools/blob/v1/README.md",
-        "issues": "https://github.com/nystudio107/craft-pathtools/issues"
+        "docs": "https://nystudio107.com/plugins/pathtools/documentation",
+        "issues": "https://nystudio107.com/plugins/pathtools/support"
     },
     "license": "MIT",
     "authors": [
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0-RC1"
+        "craftcms/cms": "^3.0.0"
     },
     "autoload": {
         "psr-4": {
