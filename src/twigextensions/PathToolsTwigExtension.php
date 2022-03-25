@@ -18,7 +18,7 @@ use Craft;
  * @package   PathTools
  * @since     1.0.0
  */
-class PathToolsTwigExtension extends \Twig_Extension
+class PathToolsTwigExtension extends \Twig\Extension\AbstractExtension
 {
     // Public Methods
     // =========================================================================
@@ -37,14 +37,14 @@ class PathToolsTwigExtension extends \Twig_Extension
     public function getFilters()
     {
         return [
-            new \Twig_SimpleFilter('pathinfo', [$this, 'pathInfoFilter']),
-            new \Twig_SimpleFilter('basename', [$this, 'baseNameFilter']),
-            new \Twig_SimpleFilter('dirname', [$this, 'dirNameFilter']),
-            new \Twig_SimpleFilter('parse_url', [$this, 'parseUrlFilter']),
-            new \Twig_SimpleFilter('parse_string', [$this, 'parseStringFilter']),
-            new \Twig_SimpleFilter('swap_extension', [$this, 'swapExtensionFilter']),
-            new \Twig_SimpleFilter('swap_directory', [$this, 'swapDirectoryFilter']),
-            new \Twig_SimpleFilter('append_suffix', [$this, 'appendSuffixFilter']),
+            new \Twig\TwigFilter('pathinfo', [$this, 'pathInfoFilter']),
+            new \Twig\TwigFilter('basename', [$this, 'baseNameFilter']),
+            new \Twig\TwigFilter('dirname', [$this, 'dirNameFilter']),
+            new \Twig\TwigFilter('parse_url', [$this, 'parseUrlFilter']),
+            new \Twig\TwigFilter('parse_string', [$this, 'parseStringFilter']),
+            new \Twig\TwigFilter('swap_extension', [$this, 'swapExtensionFilter']),
+            new \Twig\TwigFilter('swap_directory', [$this, 'swapDirectoryFilter']),
+            new \Twig\TwigFilter('append_suffix', [$this, 'appendSuffixFilter']),
         ];
     }
 
@@ -54,14 +54,14 @@ class PathToolsTwigExtension extends \Twig_Extension
     public function getFunctions()
     {
         return [
-            new \Twig_SimpleFunction('pathinfo', [$this, 'pathInfoFilter']),
-            new \Twig_SimpleFunction('basename', [$this, 'baseNameFilter']),
-            new \Twig_SimpleFunction('dirname', [$this, 'dirNameFilter']),
-            new \Twig_SimpleFunction('parse_url', [$this, 'parseUrlFilter']),
-            new \Twig_SimpleFunction('parse_string', [$this, 'parseStringFilter']),
-            new \Twig_SimpleFunction('swap_extension', [$this, 'swapExtensionFilter']),
-            new \Twig_SimpleFunction('swap_directory', [$this, 'swapDirectoryFilter']),
-            new \Twig_SimpleFunction('append_suffix', [$this, 'appendSuffixFilter']),
+            new \Twig\TwigFunction('pathinfo', [$this, 'pathInfoFilter']),
+            new \Twig\TwigFunction('basename', [$this, 'baseNameFilter']),
+            new \Twig\TwigFunction('dirname', [$this, 'dirNameFilter']),
+            new \Twig\TwigFunction('parse_url', [$this, 'parseUrlFilter']),
+            new \Twig\TwigFunction('parse_string', [$this, 'parseStringFilter']),
+            new \Twig\TwigFunction('swap_extension', [$this, 'swapExtensionFilter']),
+            new \Twig\TwigFunction('swap_directory', [$this, 'swapDirectoryFilter']),
+            new \Twig\TwigFunction('append_suffix', [$this, 'appendSuffixFilter']),
         ];
     }
 
