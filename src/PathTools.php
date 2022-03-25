@@ -11,10 +11,9 @@
 
 namespace nystudio107\pathtools;
 
-use nystudio107\pathtools\twigextensions\PathToolsTwigExtension;
-
 use Craft;
 use craft\base\Plugin;
+use nystudio107\pathtools\twigextensions\PathToolsTwigExtension;
 
 /**
  * Class PathTools
@@ -29,9 +28,26 @@ class PathTools extends Plugin
     // =========================================================================
 
     /**
-     * @var PathTools
+     * @var ?PathTools
      */
-    public static $plugin;
+    public static ?PathTools $plugin = null;
+
+    // Public Properties
+    // =========================================================================
+
+    /**
+     * @var string
+     */
+    public string $schemaVersion = '1.0.0';
+
+    /**
+     * @var bool
+     */
+    public bool $hasCpSettings = false;
+    /**
+     * @var bool
+     */
+    public bool $hasCpSection = false;
 
     // Public Methods
     // =========================================================================
@@ -39,13 +55,11 @@ class PathTools extends Plugin
     /**
      * @inheritdoc
      */
-    public function init()
+    public function init(): void
     {
         parent::init();
         self::$plugin = $this;
-
         Craft::$app->view->registerTwigExtension(new PathToolsTwigExtension());
-
         Craft::info(
             Craft::t(
                 'path-tools',

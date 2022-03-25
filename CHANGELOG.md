@@ -1,5 +1,11 @@
 # PathTools Changelog
 
+## 4.0.0-beta.1 - 2022.02.25
+
+### Added
+
+* Initial Craft CMS 4 compatibility
+
 ## 1.0.7 - 2018.02.01
 ### Added
 * Renamed the composer package name to `craft-pathtools`
