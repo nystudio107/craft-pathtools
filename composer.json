@@ -1,41 +1,38 @@
 {
-    "name": "nystudio107/craft-pathtools",
-    "description": "This twig plugin for the Craft CMS brings convenient path & url manipulation functions & filters to your Twig templates.",
-    "type": "craft-plugin",
-    "version": "1.0.7",
-    "keywords": [
-        "craft",
-        "cms",
-        "craftcms",
-        "craft-plugin",
-        "pathtools"
-    ],
-    "support": {
-        "docs": "https://nystudio107.com/plugins/pathtools/documentation",
-        "issues": "https://nystudio107.com/plugins/pathtools/support"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "nystudio107",
-            "homepage": "https://nystudio107.com"
-        }
-    ],
-    "require": {
-        "craftcms/cms": "^3.0.0"
-    },
-    "autoload": {
-        "psr-4": {
-          "nystudio107\\pathtools\\": "src/"
-        }
-    },
-    "extra": {
-        "name": "PathTools",
-        "handle": "path-tools",
-        "schemaVersion": "1.0.0",
-        "hasCpSettings": false,
-        "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/nystudio107/craft-pathtools/v1/CHANGELOG.md",
-        "class": "nystudio107\\pathtools\\PathTools"
+  "name": "nystudio107/craft-pathtools",
+  "description": "This twig plugin for the Craft CMS brings convenient path & url manipulation functions & filters to your Twig templates.",
+  "type": "craft-plugin",
+  "version": "4.0.0-beta.1",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "pathtools"
+  ],
+  "support": {
+    "docs": "https://nystudio107.com/docs/pathtools/",
+    "issues": "https://nystudio107.com/plugins/pathtools/support",
+    "source": "https://github.com/nystudio107/craft-pathtools"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "nystudio107",
+      "homepage": "https://nystudio107.com"
     }
+  ],
+  "require": {
+    "craftcms/cms": "^4.0.0-beta.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "nystudio107\\pathtools\\": "src/"
+    }
+  },
+  "extra": {
+    "class": "nystudio107\\pathtools\\PathTools",
+    "handle": "path-tools",
+    "name": "PathTools"
+  }
 }
