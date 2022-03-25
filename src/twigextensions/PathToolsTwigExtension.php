@@ -11,14 +11,16 @@
 
 namespace nystudio107\pathtools\twigextensions;
 
-use Craft;
+use Twig\Extension\AbstractExtension;
+use Twig\TwigFilter;
+use Twig\TwigFunction;
 
 /**
  * @author    nystudio107
  * @package   PathTools
  * @since     1.0.0
  */
-class PathToolsTwigExtension extends \Twig\Extension\AbstractExtension
+class PathToolsTwigExtension extends AbstractExtension
 {
     // Public Methods
     // =========================================================================
@@ -26,7 +28,7 @@ class PathToolsTwigExtension extends \Twig\Extension\AbstractExtension
     /**
      * @inheritdoc
      */
-    public function getName()
+    public function getName(): string
     {
         return 'PathTools';
     }
@@ -34,34 +36,34 @@ class PathToolsTwigExtension extends \Twig\Extension\AbstractExtension
     /**
      * @inheritdoc
      */
-    public function getFilters()
+    public function getFilters(): array
     {
         return [
-            new \Twig\TwigFilter('pathinfo', [$this, 'pathInfoFilter']),
-            new \Twig\TwigFilter('basename', [$this, 'baseNameFilter']),
-            new \Twig\TwigFilter('dirname', [$this, 'dirNameFilter']),
-            new \Twig\TwigFilter('parse_url', [$this, 'parseUrlFilter']),
-            new \Twig\TwigFilter('parse_string', [$this, 'parseStringFilter']),
-            new \Twig\TwigFilter('swap_extension', [$this, 'swapExtensionFilter']),
-            new \Twig\TwigFilter('swap_directory', [$this, 'swapDirectoryFilter']),
-            new \Twig\TwigFilter('append_suffix', [$this, 'appendSuffixFilter']),
+            new TwigFilter('pathinfo', [$this, 'pathInfoFilter']),
+            new TwigFilter('basename', [$this, 'baseNameFilter']),
+            new TwigFilter('dirname', [$this, 'dirNameFilter']),
+            new TwigFilter('parse_url', [$this, 'parseUrlFilter']),
+            new TwigFilter('parse_string', [$this, 'parseStringFilter']),
+            new TwigFilter('swap_extension', [$this, 'swapExtensionFilter']),
+            new TwigFilter('swap_directory', [$this, 'swapDirectoryFilter']),
+            new TwigFilter('append_suffix', [$this, 'appendSuffixFilter']),
         ];
     }
 
     /**
      * @inheritdoc
      */
-    public function getFunctions()
+    public function getFunctions(): array
     {
         return [
-            new \Twig\TwigFunction('pathinfo', [$this, 'pathInfoFilter']),
-            new \Twig\TwigFunction('basename', [$this, 'baseNameFilter']),
-            new \Twig\TwigFunction('dirname', [$this, 'dirNameFilter']),
-            new \Twig\TwigFunction('parse_url', [$this, 'parseUrlFilter']),
-            new \Twig\TwigFunction('parse_string', [$this, 'parseStringFilter']),
-            new \Twig\TwigFunction('swap_extension', [$this, 'swapExtensionFilter']),
-            new \Twig\TwigFunction('swap_directory', [$this, 'swapDirectoryFilter']),
-            new \Twig\TwigFunction('append_suffix', [$this, 'appendSuffixFilter']),
+            new TwigFunction('pathinfo', [$this, 'pathInfoFilter']),
+            new TwigFunction('basename', [$this, 'baseNameFilter']),
+            new TwigFunction('dirname', [$this, 'dirNameFilter']),
+            new TwigFunction('parse_url', [$this, 'parseUrlFilter']),
+            new TwigFunction('parse_string', [$this, 'parseStringFilter']),
+            new TwigFunction('swap_extension', [$this, 'swapExtensionFilter']),
+            new TwigFunction('swap_directory', [$this, 'swapDirectoryFilter']),
+            new TwigFunction('append_suffix', [$this, 'appendSuffixFilter']),
         ];
     }
 

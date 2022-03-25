@@ -15,5 +15,5 @@
  * @since     1.0.0
  */
 return [
-    'PathTools plugin loaded' => 'PathTools plugin loaded',
+    '{name} plugin loaded' => '{name} plugin loaded'
 ];
