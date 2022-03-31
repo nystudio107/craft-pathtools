@@ -14,9 +14,9 @@ module.exports = {
     docsDir: 'docs/docs',
     docsBranch: 'develop',
     algolia: {
-      appId: '',
-      apiKey: '',
-      indexName: 'path-tools'
+      appId: '36DLY52ODU',
+      apiKey: 'c4223fa9aeaf7155816dccb84e5f87a8',
+      indexName: 'nystudio107-path-tools'
     },
     editLinks: true,
     editLinkText: 'Edit this page on GitHub',
